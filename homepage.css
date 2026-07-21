@@ -1,3 +1,4 @@
+/* General */
 body {
     display: flex;
     flex-direction: column;
@@ -7,23 +8,22 @@ body {
     color: white;
     gap: 1rem;
 }
-
-nav {
-    background-color: rgb(29, 35, 40);
-    width: 100%;
-    color: white;
-}
-
 a {
     text-decoration: none;
     color: inherit;
 }
 
-img {
+/* Top Section */
+nav {
+    background-color: rgb(29, 35, 40);
+    width: 100%;
+    color: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.312);
+}
+#wincodeslogo {
     width: 3rem;
     border-radius: 100%;
 }
-
 .navigation {
     display: flex;
     align-items: center;
@@ -31,16 +31,35 @@ img {
     gap: 1rem;
 }
 
+/* Website Contents */
 .project {
-    background: none;
+    background: rgb(29, 35, 40);
     border: 1px solid;
     border-color: aliceblue;
-    padding: 1rem;
-    box-shadow: 0px 0px 15px rgb(144, 134, 134);
-    
+    color: rgb(0, 200, 255);
+    padding: 2.5rem;
+    font-weight: 650;
+    box-shadow: 5px 5px 10px rgba(4, 4, 4, 0.699);
+    transition: all 0.2s ease-in-out;
+}
+
+.project:hover {
+    background: rgb(29, 35, 40);
+    border: 1px solid;
+    border-color: aliceblue;
+    color: rgb(0, 115, 255);
+    padding: 4rem;
+    font-weight: 650;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.816);;
+    transition: all 0.2s ease-in-out;
+}
+
+.projectimage {
+    width: 15rem;
 }
 
 #project_area {
     display: flex;
     gap: 1rem;
+    align-items: flex-start;
 }
