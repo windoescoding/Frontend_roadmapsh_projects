@@ -19,4 +19,6 @@ git clone <repository-url>
 
 5. Right-click the file and select **Open with Live Server** (requires the Live Server VS Code extension).
 
-That's it!
+## Navigating the Projects
+
+The project has an index.html file located in the main directory. This is a main navigation page where all of the projects are contained. Each project also has a bottom bar that allows you to return to the main home menu.
