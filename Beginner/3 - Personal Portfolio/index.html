@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="..\..\Global Web Files\globalfooter.css">
     <link rel="stylesheet" href="format.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="icon" type="image/x-icon" href="2.png">
     <title>Document</title>
 </head>
@@ -24,15 +25,15 @@
         <p>html only with proper layout, no styling.</p>
     </header>
     <main class="middle_section">
-        <article class="projects">
+        <section class="projects" style="grid-area: box-1;">
             <h2>Projects</h2>
             <p>Restaurant Landing Page</p>
             <p>Travel Blog Homepage</p>
             <p>Task Manager Dashboard</p>
             <p>Photography Portfolio</p>
             <p>Multi-Purpose Calculator</p>
-        </article>
-        <section class="work_experience">
+        </section>
+        <section class="projects" style="grid-area: box-2;">
             <h2>Work Experience</h2>
             <p>roadmap.sh</p>
             <p>
@@ -47,7 +48,7 @@
                 <li>Optimized page performance and loading speed.</li>
             </ul>
         </section>
-        <section class="opensource_work">
+        <section class="projects" style="grid-area: box-3;">
             <h2>OpenSource Work</h2>
             <p>OpenWeather Dashboard</p>
             <ul>
@@ -55,7 +56,7 @@
                 <li>Improved accessibility of navigation menus.</li>
             </ul>
         </section>
-        <section class="education">
+        <section class="projects" style="grid-area: box-4;">
             <h2>Education</h2>
             <p>
                 Graduated with a Bachelor of Science in Computer Science from Evergreen State University. <br>
@@ -76,8 +77,8 @@
         </section>
 
     </main>
-    <section class="teacher_reviews">   
-        <h2>Review from my Teachers</h2>
+    <h2>Reviews from my Teachers</h2>
+    <section id="teacher_reviews">   
         <section class="teacher_review">
             <h3>Professor Emily Carter</h3>
             <p>"An attentive student who consistently submitted clean, organized work. Demonstrated strong problem-solving skills and a willingness to help classmates."</p>
@@ -90,13 +91,13 @@
             <h3>Professor Sophia Nguyen</h3>
             <p>"A dependable team member with excellent communication skills. Frequently took leadership roles during group assignments and delivered high-quality results."</p>
         </section>
-        <section>
+        <section class="teacher_review">
             <h3>Professor Michael Adams</h3>
             <p>"Sarah was one of the most dedicated students in my Web Development class. Her projects were consistently well-structured and thoughtfully designed."</p>
         </section>
     </section>
-    <p>© all rights reserved 2026</p>
-    <p><i>Note: All names (except WinCodes), experiences, and information in this wesbite are fictional and used for demonstration purposes only.</i></p>
+    <p id="allrights">© all rights reserved 2026</p>
+    <p id="note"><i>Note: All names (except WinCodes), experiences, and information in this wesbite are fictional and used for demonstration purposes only.</i></p>
     <footer id="globalfooter">
         <img id="globalimage" src="2.png" alt="Wincodeslogo">
         <a id="globallink" href="..\..\index.html">Return</a>
