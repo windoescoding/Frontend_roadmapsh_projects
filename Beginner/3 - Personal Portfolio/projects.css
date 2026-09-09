@@ -32,3 +32,7 @@ body h1{
 #note {
     color: black;
 }
+
+#note a {
+    color: rgb(0, 191, 255);
+}
