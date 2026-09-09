@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+}
+#contact_area {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 3rem;
+    margin: 2rem;
+    align-self: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.359);
+    gap: 1rem;
+}
+
+input {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.278);
+    border: none;
+    border-radius: 10px;
+    width: 50vh;
+}
+
+button {
+    border: none;
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.095);
+    font-size: calc(1rem + 0.7vh + 0.7vw);
+    font-weight: 600;
+}
