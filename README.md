@@ -1,6 +1,11 @@
 # Frontend Roadmap Projects
 A collection of projects based from [roadmap.sh](https://roadmap.sh/frontend/projects)
 
+## Completed Projects:
+[1. Single-Page HTML CV](https://roadmap.sh/projects/single-page-cv)
+[2. Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
+[3. Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
+
 # Running a Project
 
 1. Clone the repository.
