@@ -22,6 +22,11 @@ nav {
     color: white;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.312);
 }
+#yt {
+    color: red;
+    font-weight: bold;
+}
+
 #wincodeslogo {
     width: 3rem;
     border-radius: 100%;

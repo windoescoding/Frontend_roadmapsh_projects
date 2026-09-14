@@ -1,12 +1,7 @@
 # Frontend Roadmap Projects
-A collection of projects built while learning frontend development. All are based from https://roadmap.sh/frontend/projects
+A collection of projects based from [roadmap.sh](https://roadmap.sh/frontend/projects)
 
-# Instructions to Run
-# Roadmap.sh Projects
-
-This repository contains my solutions for various Roadmap.sh frontend projects.
-
-## Running a Project
+# Running a Project
 
 1. Clone the repository.
 git clone <repository-url>
@@ -19,6 +14,6 @@ git clone <repository-url>
 
 5. Right-click the file and select **Open with Live Server** (requires the Live Server VS Code extension).
 
-## Navigating the Projects
+# Navigating the Projects
 
-The project has an index.html file located in the main directory. This is a main navigation page where all of the projects are contained. Each project also has a bottom bar that allows you to return to the main home menu.
+The project has an index.html file in the main directory, which serves as the main navigation page containing links to all of the projects. Each individual project also includes a bottom navigation bar that allows users to return to the main home menu, which contains all the other projects.
