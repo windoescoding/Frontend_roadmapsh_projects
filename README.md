@@ -22,3 +22,5 @@ git clone <repository-url>
 # Navigating the Projects
 
 The project has an index.html file in the main directory, which serves as the main navigation page containing links to all of the projects. Each individual project also includes a bottom navigation bar that allows users to return to the main home menu, which contains all the other projects.
+
+You can also visit the homepage [here](https://windoescoding.github.io/Frontend_roadmapsh_projects/)
