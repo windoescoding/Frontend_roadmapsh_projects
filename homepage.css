@@ -25,6 +25,13 @@ nav {
 #yt {
     color: red;
     font-weight: bold;
+    transition: 0.4s;
+}
+
+#yt:hover{
+    color: red;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px red;
 }
 
 #wincodeslogo {
