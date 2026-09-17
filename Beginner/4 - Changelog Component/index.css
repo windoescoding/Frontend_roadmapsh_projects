@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 0px;    
+    border: 0px;
+    margin-top: 10px;
+}
+
+.light, .date {
+    color: rgb(172, 172, 172);
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150vh;
+    width: 60vw;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.195);
+    border-radius: 20px;
+    position: relative;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+}
+
+#line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 2px;
+    height: 60%;
+    background-color: black;
+}
+
+.endpoint {
+    background-color: rgb(0, 0, 0);
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+}
+.node {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+}
+
+.date {
+    position: relative;
+    width: 150px;
+    flex-shrink: 0;
+    left: 100px;
+    transition: 0.3s;
+}
+
+.date:hover {
+    transform: translateY(-3px);
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.392);
+}
+
+.change {
+    position: relative;
+    width: 400px;
+    flex-shrink: 0;
+    left: 150px;
+    transition: 0.3s;
+}
+
+.change:hover {
+    transform: translateY(-3px);
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.392);
+}
+
+button {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.195);
+    position: relative;
+    top: 15vh;
+    transition: 0.5s;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+}
+
+button:hover {
+    transform: translateY(-7px);
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.314);
+}
+
+@keyframes fadein {
+    0%{
+    transform: translateY(15px);
+    opacity: 0;
+    }
+    100%{
+    transform: translateY(0px);
+    opacity: 100;
+    }
+}
