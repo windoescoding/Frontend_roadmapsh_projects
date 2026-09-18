@@ -32,6 +32,7 @@ nav {
     color: red;
     font-weight: bold;
     text-shadow: 0px 0px 10px red;
+    transform: translateY(-5px);
 }
 
 #wincodeslogo {
@@ -58,14 +59,10 @@ nav {
 }
 
 .project:hover {
-    background: rgb(29, 35, 40);
-    border: 1px solid;
-    border-color: aliceblue;
     color: rgb(0, 115, 255);
-    padding: 4rem;
-    font-weight: 650;
-    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.816);;
-    transition: all 0.2s ease-in-out;
+    padding: 3rem;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.816);
+    transform: translateY(-5px);
 }
 
 .projectimage {

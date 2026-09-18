@@ -7,32 +7,40 @@ body {
     margin: 0px;
     border: 0px;
 }
-a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    transition: text-shadow 0.3s;
-}
 
-a:hover {
-    text-shadow: 0px 0px 7px rgb(247, 246, 246);
-    transition: text-shadow 0.3s;
-}
 
-/* Top-Section */
+/* Top-Section */   
 .navigation {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    position: relative;
+    gap: 3vw;
     background-color: rgb(31, 34, 46);
     color: rgb(0, 153, 255);
     box-shadow: 0px 0px 10px black;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+a:hover {
+    transform: translateY(-5px);
+    text-shadow: 0px 5px 7px rgb(255, 255, 255);
+}
+
+.pfp {
+    height: 3rem;
+}
+
 .nav_links {
     display: flex;
     align-items: center;
-    gap: 2.5rem;
+    gap: 2vw;
 }
 
 .landing_page {
