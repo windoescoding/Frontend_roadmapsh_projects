@@ -11,15 +11,14 @@ body h2 {
     "box-1 box-3 box-4";
 }
 
-
 .projects {
-    padding: 3vh;
+    padding: min;
     border: 1px solid black;
 }
 
 #teacher_reviews {
     display: grid;
-    grid-template-columns: 25% 25%;
+    grid-template-columns: 35% 35%;
     grid-template-rows: 1fr 1fr;
     gap: 2vh;
     justify-content: center;
